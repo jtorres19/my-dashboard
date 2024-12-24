@@ -1,7 +1,7 @@
 import { computed, inject, Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { User, UserRs, UsersRs } from '../interfaces/UsersRs';
+import { User, UserRs, UsersRs } from '../interfaces/users-rs';
 import { delay, map } from 'rxjs';
 
 interface State {
